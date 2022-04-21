@@ -34,7 +34,7 @@ In industrial processes, process switches are used to monitor physical quantitie
 
 ![download](https://user-images.githubusercontent.com/101283423/164391114-f8d52725-3b07-4ab4-b911-ef4048480d58.jpg)
 
-### Register
+### Resister
 A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses. High-power resistors that can dissipate many watts of electrical power as heat may be used as part of motor controls, in power distribution systems, or as test loads for generators. Fixed resistors have resistances that only change slightly with temperature, time or operating voltage. Variable resistors can be used to adjust circuit elements (such as a volume control or a lamp dimmer), or as sensing devices for heat, light, humidity, force, or chemical activity.
 
 ![10-ohm-500x500](https://user-images.githubusercontent.com/101283423/164391267-6de0c824-0bf2-46e0-affa-e6e06b8a1e9d.jpg)
