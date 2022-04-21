@@ -8,9 +8,9 @@ CXXFLAGS = -std=c11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = door_sensor
 EXT = .c
-SRCDIR = .
+SRCDIR = C:\Users\Admin\Desktop\winavr
 OBJDIR = .
 
 ############## Do not change anything from here downwards! #############
