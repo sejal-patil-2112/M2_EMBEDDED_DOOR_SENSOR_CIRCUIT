@@ -1,0 +1,42 @@
+   1               		.file	"door_sensor.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	main
+  18               	main:
+  19               	.LFB2:
+  20               	.LM1:
+  21               	/* prologue: function */
+  22               	/* frame size = 0 */
+  23               	.LM2:
+  24 0000 2198      		cbi 36-32,1
+  25               	.LM3:
+  26 0002 3E9A      		sbi 39-32,6
+  27               	.L5:
+  28               	.LM4:
+  29 0004 199B      		sbis 35-32,1
+  30 0006 00C0      		rjmp .L2
+  31               	.LM5:
+  32 0008 469A      		sbi 40-32,6
+  33 000a 00C0      		rjmp .L5
+  34               	.L2:
+  35               	.LM6:
+  36 000c 4698      		cbi 40-32,6
+  37 000e 00C0      		rjmp .L5
+  38               	.LFE2:
+  64               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 door_sensor.c
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:2      *ABS*:0000003f __SREG__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:3      *ABS*:0000003e __SP_H__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:4      *ABS*:0000003d __SP_L__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:5      *ABS*:00000034 __CCP__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\Admin\AppData\Local\Temp/ccfEdeBY.s:18     .text:00000000 main
+
+NO UNDEFINED SYMBOLS
