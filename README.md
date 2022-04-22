@@ -6,3 +6,5 @@
 [![CI](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/CI.yml/badge.svg)](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/CI.yml)
 
 [![Windows C/C++ CI](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/CodeQulaity.yml)
+
+[![Compile-Windows](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/Compile.yml/badge.svg)](https://github.com/sejal-patil-2112/M2_EMBEDDED_DOOR_SENSOR_CIRCUIT/actions/workflows/Compile.yml)
